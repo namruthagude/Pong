@@ -1,0 +1,777 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Photon.meta
+    - Assets/Photon/Fusion.meta
+    - Assets/Photon/Fusion/Assemblies.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.dll
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.dll.debug
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.dll.debug.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.dll.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.pdb
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.pdb.debug
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.pdb.debug.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.pdb.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.xml
+    - Assets/Photon/Fusion/Assemblies/Fusion.Common.xml.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Log.dll
+    - Assets/Photon/Fusion/Assemblies/Fusion.Log.dll.debug
+    - Assets/Photon/Fusion/Assemblies/Fusion.Log.dll.debug.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Log.dll.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.dll
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.dll.debug
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.dll.debug.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.dll.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.pdb
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.pdb.debug
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.pdb.debug.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.pdb.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.xml
+    - Assets/Photon/Fusion/Assemblies/Fusion.Realtime.xml.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.dll
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.dll.debug
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.dll.debug.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.dll.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.pdb
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.pdb.debug
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.pdb.debug.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.pdb.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.xml
+    - Assets/Photon/Fusion/Assemblies/Fusion.Runtime.xml.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.dll
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.dll.debug
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.dll.debug.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.dll.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.pdb
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.pdb.debug
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.pdb.debug.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.pdb.meta
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.xml
+    - Assets/Photon/Fusion/Assemblies/Fusion.Sockets.xml.meta
+    - Assets/Photon/Fusion/CodeGen.meta
+    - Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.Trigger.fusionweavertrigger
+    - Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.Trigger.fusionweavertrigger.meta
+    - Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.User.cs
+    - Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.User.cs.meta
+    - Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.asmdef
+    - Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.asmdef.meta
+    - Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.cs
+    - Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.cs.meta
+    - Assets/Photon/Fusion/Editor.meta
+    - Assets/Photon/Fusion/Editor/EditorResources.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fonts.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fonts/OFL.txt
+    - Assets/Photon/Fusion/Editor/EditorResources/Fonts/OFL.txt.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fonts/Oswald-Header.ttf
+    - Assets/Photon/Fusion/Editor/EditorResources/Fonts/Oswald-Header.ttf.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-dark-help-button-off.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-dark-help-button-off.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-dark-help-button-on.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-dark-help-button-on.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-box-2x.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-box-2x.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-box-no-vertical-borders.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-box-no-vertical-borders.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-box.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-box.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-help-box.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-help-box.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-selector.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-inline-selector.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-light-help-button-off.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-light-help-button-off.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-light-help-button-on.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-light-help-button-on.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-logo-2x.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-logo-2x.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-logo.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-logo.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-outline-box.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-outline-box.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-script-header-2x.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-script-header-2x.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-script-header.png
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion-script-header.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion.Unity.xml
+    - Assets/Photon/Fusion/Editor/EditorResources/Fusion.Unity.xml.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionEditorSkin.guiskin
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionEditorSkin.guiskin.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-community.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-community.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-correct-icon.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-correct-icon.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-documentation.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-documentation.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-icon.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-icon.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-information.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-information.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-logo.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-logo.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-photon-cloud-32-dark.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-photon-cloud-32-dark.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-samples.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-samples.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-box.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-box.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-button-active.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-button-active.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-button-hover.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-button-hover.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-button.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-button.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-sand.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-sand.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-steel.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-steel.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-window.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-skin-window.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-tanknarok-logo.png
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/Fusion-hub-tanknarok-logo.png.meta
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/FusionHubSkin.guiskin
+    - Assets/Photon/Fusion/Editor/EditorResources/FusionHub/FusionHubSkin.guiskin.meta
+    - Assets/Photon/Fusion/Editor/Fusion.Unity.Editor.asmdef
+    - Assets/Photon/Fusion/Editor/Fusion.Unity.Editor.asmdef.meta
+    - Assets/Photon/Fusion/Editor/Fusion.Unity.Editor.cs
+    - Assets/Photon/Fusion/Editor/Fusion.Unity.Editor.cs.meta
+    - Assets/Photon/Fusion/Editor/FusionEditorConfigImporter.cs
+    - Assets/Photon/Fusion/Editor/FusionEditorConfigImporter.cs.meta
+    - Assets/Photon/Fusion/Editor/FusionEditorSkin.cs
+    - Assets/Photon/Fusion/Editor/FusionEditorSkin.cs.meta
+    - Assets/Photon/Fusion/Editor/FusionHubWindow.cs
+    - Assets/Photon/Fusion/Editor/FusionHubWindow.cs.meta
+    - Assets/Photon/Fusion/Editor/FusionRunnerVisibilityControlsWindow.cs
+    - Assets/Photon/Fusion/Editor/FusionRunnerVisibilityControlsWindow.cs.meta
+    - Assets/Photon/Fusion/Editor/FusionWeaverTriggerImporter.cs
+    - Assets/Photon/Fusion/Editor/FusionWeaverTriggerImporter.cs.meta
+    - Assets/Photon/Fusion/Editor/NetworkPrefabsInspector.cs
+    - Assets/Photon/Fusion/Editor/NetworkPrefabsInspector.cs.meta
+    - Assets/Photon/Fusion/Editor/NetworkProjectConfigImporter.cs
+    - Assets/Photon/Fusion/Editor/NetworkProjectConfigImporter.cs.meta
+    - Assets/Photon/Fusion/Editor/NetworkProjectConfigImporterEditor.cs
+    - Assets/Photon/Fusion/Editor/NetworkProjectConfigImporterEditor.cs.meta
+    - Assets/Photon/Fusion/Plugins.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/arm64-v8a.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/arm64-v8a/libnanosockets.so
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/arm64-v8a/libnanosockets.so.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/armeabi-v7a.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/armeabi-v7a/libnanosockets.so
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/armeabi-v7a/libnanosockets.so.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/x86.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/x86/libnanosockets.so
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/x86/libnanosockets.so.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/x86_64.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/x86_64/libnanosockets.so
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Android/x86_64/libnanosockets.so.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Linux.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Linux/libnanosockets.so
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Linux/libnanosockets.so.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/ARM.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/ARM/libnanosockets.dll
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/ARM/libnanosockets.dll.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/ARM64.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/ARM64/libnanosockets.dll
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/ARM64/libnanosockets.dll.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/NanoSockets.dll
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/NanoSockets.dll.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/x64.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/x64/libnanosockets.dll
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/x64/libnanosockets.dll.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/x86.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/x86/libnanosockets.dll
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Metro/x86/libnanosockets.dll.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Dynamic.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Dynamic/NanoSockets.dll
+    - Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Dynamic/NanoSockets.dll.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Static.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Static/NanoSockets.dll
+    - Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Static/NanoSockets.dll.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/WebGL.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/WebGL/NanoSockets.dll
+    - Assets/Photon/Fusion/Plugins/NanoSockets/WebGL/NanoSockets.dll.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Windows.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Windows/nanosockets.dll
+    - Assets/Photon/Fusion/Plugins/NanoSockets/Windows/nanosockets.dll.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/iOS.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/iOS/libnanosockets.a
+    - Assets/Photon/Fusion/Plugins/NanoSockets/iOS/libnanosockets.a.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/libnanosockets_LICENSE
+    - Assets/Photon/Fusion/Plugins/NanoSockets/libnanosockets_LICENSE.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/macOS.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/macOS/libnanosockets.dylib
+    - Assets/Photon/Fusion/Plugins/NanoSockets/macOS/libnanosockets.dylib.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/tvOS.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/tvOS/libnanosockets.a
+    - Assets/Photon/Fusion/Plugins/NanoSockets/tvOS/libnanosockets.a.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/visionOS.meta
+    - Assets/Photon/Fusion/Plugins/NanoSockets/visionOS/libnanosockets.a
+    - Assets/Photon/Fusion/Plugins/NanoSockets/visionOS/libnanosockets.a.meta
+    - Assets/Photon/Fusion/Resources.meta
+    - Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+    - Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion.meta
+    - Assets/Photon/Fusion/Resources/PhotonAppSettings.asset
+    - Assets/Photon/Fusion/Resources/PhotonAppSettings.asset.meta
+    - Assets/Photon/Fusion/Runtime.meta
+    - Assets/Photon/Fusion/Runtime/Fusion.Unity.asmdef
+    - Assets/Photon/Fusion/Runtime/Fusion.Unity.asmdef.meta
+    - Assets/Photon/Fusion/Runtime/Fusion.Unity.cs
+    - Assets/Photon/Fusion/Runtime/Fusion.Unity.cs.meta
+    - Assets/Photon/Fusion/Runtime/FusionAddressablePrefabsPreloader.cs
+    - Assets/Photon/Fusion/Runtime/FusionAddressablePrefabsPreloader.cs.meta
+    - Assets/Photon/Fusion/Runtime/FusionBasicBillboard.cs
+    - Assets/Photon/Fusion/Runtime/FusionBasicBillboard.cs.meta
+    - Assets/Photon/Fusion/Runtime/FusionBootstrap.cs
+    - Assets/Photon/Fusion/Runtime/FusionBootstrap.cs.meta
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUI.cs
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUI.cs.meta
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUISkin.guiskin
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUISkin.guiskin.meta
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUIStartButton.png
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUIStartButton.png.meta
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUIStartButtonDown.png
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUIStartButtonDown.png.meta
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUIStartButtonOver.png
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUIStartButtonOver.png.meta
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUIStartWindow.png
+    - Assets/Photon/Fusion/Runtime/FusionBootstrapDebugGUIStartWindow.png.meta
+    - Assets/Photon/Fusion/Runtime/NetworkCharacterController.cs
+    - Assets/Photon/Fusion/Runtime/NetworkCharacterController.cs.meta
+    - Assets/Photon/Fusion/Runtime/NetworkObjectProviderDefault.cs
+    - Assets/Photon/Fusion/Runtime/NetworkObjectProviderDefault.cs.meta
+    - Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs
+    - Assets/Photon/Fusion/Runtime/NetworkSceneManagerDefault.cs.meta
+    - Assets/Photon/Fusion/Runtime/RuntimeAssets.meta
+    - Assets/Photon/Fusion/Runtime/RuntimeAssets/JetBrainsMono OFL.txt
+    - Assets/Photon/Fusion/Runtime/RuntimeAssets/JetBrainsMono OFL.txt.meta
+    - Assets/Photon/Fusion/Runtime/RuntimeAssets/JetBrainsMono-Regular.ttf
+    - Assets/Photon/Fusion/Runtime/RuntimeAssets/JetBrainsMono-Regular.ttf.meta
+    - Assets/Photon/Fusion/Runtime/RuntimeAssets/Roboto-Regular.ttf
+    - Assets/Photon/Fusion/Runtime/RuntimeAssets/Roboto-Regular.ttf.meta
+    - Assets/Photon/Fusion/Runtime/Statistics.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionNetworkObjectStatistics.cs
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionNetworkObjectStatistics.cs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionNetworkObjectStatsGraph.cs
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionNetworkObjectStatsGraph.cs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionNetworkObjectStatsGraphCombine.cs
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionNetworkObjectStatsGraphCombine.cs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatistics.cs
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatistics.cs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsCanvas.cs
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsCanvas.cs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsConfig.cs
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsConfig.cs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphDefault.cs
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphDefault.cs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphMaterial.mat
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphMaterial.mat.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphShader.shader
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphShader.shader.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsPanelHeader.cs
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsPanelHeader.cs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsWorldAnchor.cs
+    - Assets/Photon/Fusion/Runtime/Statistics/FusionStatsWorldAnchor.cs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/Prefabs.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/Prefabs/FusionStatsSimpleButton.prefab
+    - Assets/Photon/Fusion/Runtime/Statistics/Prefabs/FusionStatsSimpleButton.prefab.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/Prefabs/NOStatGraph.prefab
+    - Assets/Photon/Fusion/Runtime/Statistics/Prefabs/NOStatGraph.prefab.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/Prefabs/SingleStatistics.prefab
+    - Assets/Photon/Fusion/Runtime/Statistics/Prefabs/SingleStatistics.prefab.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/Prefabs/StatisticsRenderGraph.prefab
+    - Assets/Photon/Fusion/Runtime/Statistics/Prefabs/StatisticsRenderGraph.prefab.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/Resources.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/Resources/FusionStatsResources.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/Resources/FusionStatsResources/FusionStatsRenderPanel.prefab
+    - Assets/Photon/Fusion/Runtime/Statistics/Resources/FusionStatsResources/FusionStatsRenderPanel.prefab.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/Resources/FusionStatsResources/NetworkObjectStatistics.prefab
+    - Assets/Photon/Fusion/Runtime/Statistics/Resources/FusionStatsResources/NetworkObjectStatistics.prefab.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/StatsIcons.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/StatsIcons/FusionStatsCancelIcon.png
+    - Assets/Photon/Fusion/Runtime/Statistics/StatsIcons/FusionStatsCancelIcon.png.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/StatsIcons/FusionStatsGearIcon.png
+    - Assets/Photon/Fusion/Runtime/Statistics/StatsIcons/FusionStatsGearIcon.png.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/StatsIcons/FusionStatsResetIcon.png
+    - Assets/Photon/Fusion/Runtime/Statistics/StatsIcons/FusionStatsResetIcon.png.meta
+    - Assets/Photon/Fusion/Runtime/Statistics/StatsIcons/FusionStatsToggleArrowIcon.png
+    - Assets/Photon/Fusion/Runtime/Statistics/StatsIcons/FusionStatsToggleArrowIcon.png.meta
+    - Assets/Photon/Fusion/Runtime/Utilities.meta
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility.meta
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/EnableOnSingleRunner.cs
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/EnableOnSingleRunner.cs.meta
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerAOIGizmos.cs
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerAOIGizmos.cs.meta
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerEnableVisibility.cs
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerEnableVisibility.cs.meta
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerLagCompensationGizmos.cs
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerLagCompensationGizmos.cs.meta
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerVisibilityLink.cs
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerVisibilityLink.cs.meta
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerVisibilityLinksRoot.cs
+    - Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerVisibilityLinksRoot.cs.meta
+    - Assets/Photon/Fusion/build_info.txt
+    - Assets/Photon/Fusion/build_info.txt.meta
+    - Assets/Photon/Fusion/package.json
+    - Assets/Photon/Fusion/package.json.meta
+    - Assets/Photon/Fusion/release_history.txt
+    - Assets/Photon/Fusion/release_history.txt.meta
+    - Assets/Photon/FusionDemos.meta
+    - Assets/Photon/FusionDemos/Photon-Fusion-Intro-Sample-2.0.3-Stable-858.unitypackage
+    - Assets/Photon/FusionDemos/Photon-Fusion-Intro-Sample-2.0.3-Stable-858.unitypackage.meta
+    - Assets/Photon/FusionMenu.meta
+    - Assets/Photon/FusionMenu/Photon-Fusion-Menu-2.0.3-Stable-858.unitypackage
+    - Assets/Photon/FusionMenu/Photon-Fusion-Menu-2.0.3-Stable-858.unitypackage.meta
+    - Assets/Photon/PhotonLibs.meta
+    - Assets/Photon/PhotonLibs/WebSocket.meta
+    - Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef
+    - Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef.meta
+    - Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs
+    - Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs.meta
+    - Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs
+    - Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs.meta
+    - Assets/Photon/PhotonLibs/WebSocket/WebSocket.jslib
+    - Assets/Photon/PhotonLibs/WebSocket/WebSocket.jslib.meta
+    - Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.README
+    - Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.README.meta
+    - Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll
+    - Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll.meta
+    - Assets/Photon/PhotonLibs/changes-library.txt
+    - Assets/Photon/PhotonLibs/changes-library.txt.meta
+    - Assets/Photon/PhotonLibs/netstandard2.0.meta
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll.meta
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb.meta
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml
+    - Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Ball.prefab
+    - Assets/Prefabs/Ball.prefab.meta
+    - Assets/Prefabs/Paddle.prefab
+    - Assets/Prefabs/Paddle.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/Managers.meta
+    - Assets/Scripts/Managers/GameManager.cs
+    - Assets/Scripts/Managers/GameManager.cs.meta
+    - Assets/Scripts/Managers/NetworkManager.cs
+    - Assets/Scripts/Managers/NetworkManager.cs.meta
+    - Assets/Scripts/Managers/UIManager.cs
+    - Assets/Scripts/Managers/UIManager.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Examples & Extras.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+    - Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+    - Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue
+      to Purple - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark
+      to Light Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light
+      to Dark Green - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow
+      to Orange - Vertical.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF
+      - Sunny Days.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      - Outline.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Glow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF
+      Logo.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic
+      Highway Sign SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Metalic Green.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Overlay.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+      SDF - Soft Mask.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF - Surface.mat.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold
+      SDF.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite
+      Asset.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+    - Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode
+      example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode
+      example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity
+    - Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+    - Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      Image 1.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text
+      UI Screenshot.png.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd.meta
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+    - Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: Chnaged
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 1

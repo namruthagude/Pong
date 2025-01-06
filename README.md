@@ -4,19 +4,19 @@ Welcome to the **Pong Multiplayer Game!** This project is a modern implementatio
 
 **Table of Contents**
 
-Features
+- Features
 
-Getting Started
+- Getting Started
 
-Gameplay
+- Gameplay
 
-Dependencies
+- Dependencies
 
-Setup Instructions
+- Setup Instructions
 
-Contributing
+- Contributing
 
-License
+- License
 
 **Features**
 
@@ -42,8 +42,8 @@ Git (optional, for cloning the repository)
 
 **Cloning the Repository**
 
-```bash git clone https://github.com/namruthagude/Pong.git
-```bash cd Pong
+git clone https://github.com/namruthagude/Pong.git
+cd Pong
 
 **Opening in Unity**
 

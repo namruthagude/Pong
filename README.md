@@ -60,7 +60,7 @@ cd Pong
 
 2. One player acts as the **Host** while the other joins as a **Client**.
 
-3. Control the paddles using keyboard inputs (default: W/S for Player 1 and Up/Down for Player 2).
+3. Control the paddles using keyboard inputs.
 
 4. The first player to score a set number of points wins the match!
 
@@ -84,7 +84,7 @@ cd Pong
 
   - Click + > **Add package by name....**
 
-  - Enter **com.unity.netcode** and click **Add**.
+  - Enter `com.unity.netcode` and click **Add**.
 
 4.Test the game in the Editor by running two instances: one as the host and the other as a client.
 

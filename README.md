@@ -42,8 +42,8 @@ Git (optional, for cloning the repository)
 
 **Cloning the Repository**
 
-```git clone https://github.com/namruthagude/Pong.git
-```cd Pong
+```bash git clone https://github.com/namruthagude/Pong.git
+```bash cd Pong
 
 **Opening in Unity**
 

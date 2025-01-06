@@ -16,7 +16,6 @@ Welcome to the **Pong Multiplayer Game!** This project is a modern implementatio
 
 - [Contributing](#Contributing)
 
-- [License](#License)
 
 ## Features
 
@@ -102,9 +101,6 @@ Contributions are welcome! If you find a bug or have an idea for a new feature, 
 
 4. Submit a pull request with a clear description of your changes.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Feel free to star this repository if you like the project, and don’t forget to follow me for more Unity projects!
 

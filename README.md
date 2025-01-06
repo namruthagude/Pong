@@ -6,17 +6,17 @@ Welcome to the **Pong Multiplayer Game!** This project is a modern implementatio
 
 - [Features](#Features)
 
-- Getting Started
+- [Getting Started](#Getting Started)
 
-- Gameplay
+- [Gameplay](#Gameplay)
 
-- Dependencies
+- [Dependencies](#Dependencies)
 
-- Setup Instructions
+- [Setup Instructions](#Setup Instructions)
 
-- Contributing
+- [Contributing](#Contributing)
 
-- License
+- [License](#License)
 
 ## Features
 
@@ -28,7 +28,7 @@ Welcome to the **Pong Multiplayer Game!** This project is a modern implementatio
 
 - **Minimalist Design:** Clean and simple UI for an enjoyable and distraction-free experience.
 
-- **Getting Started**
+## Getting Started
 
 Follow these instructions to set up the project locally and start playing:
 
@@ -41,7 +41,7 @@ Follow these instructions to set up the project locally and start playing:
 - Git (optional, for cloning the repository)
 
 ## Cloning the Repository
-
+```bash
 git clone https://github.com/namruthagude/Pong.git
 cd Pong
 

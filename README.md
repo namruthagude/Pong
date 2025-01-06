@@ -1,4 +1,4 @@
-#Pong - Multiplayer Game
+# Pong - Multiplayer Game
 
 Welcome to the **Pong Multiplayer Game!** This project is a modern implementation of the classic Pong game, built using Unity and Netcode for GameObjects. This repository contains the source code and assets required to play and experiment with a multiplayer version of Pong.
 
@@ -42,8 +42,8 @@ Git (optional, for cloning the repository)
 
 **Cloning the Repository**
 
-'''git clone https://github.com/namruthagude/Pong.git
-'''cd Pong
+```git clone https://github.com/namruthagude/Pong.git
+```cd Pong
 
 **Opening in Unity**
 

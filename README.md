@@ -6,13 +6,13 @@ Welcome to the **Pong Multiplayer Game!** This project is a modern implementatio
 
 - [Features](#Features)
 
-- [Getting Started](#Getting Started)
+- [Getting Started](#GettingStarted)
 
 - [Gameplay](#Gameplay)
 
 - [Dependencies](#Dependencies)
 
-- [Setup Instructions](#Setup Instructions)
+- [Setup Instructions](#SetupInstructions)
 
 - [Contributing](#Contributing)
 
@@ -44,6 +44,7 @@ Follow these instructions to set up the project locally and start playing:
 ```bash
 git clone https://github.com/namruthagude/Pong.git
 cd Pong
+```
 
 ## Opening in Unity
 

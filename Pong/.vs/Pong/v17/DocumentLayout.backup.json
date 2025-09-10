@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "E:\\New Games\\Pong\\Pong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|e:\\new games\\pong\\pong\\assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|e:\\new games\\pong\\pong\\assets\\scripts\\gamelobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\managers\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\disconnectionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\disconnectionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\waitingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\waitingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\lobbyui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\lobbyui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\singleton\\runtimedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singleton\\runtimedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\gamejoiningui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\gamejoiningui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\waitingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\waitingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\lobbyui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\lobbyui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\playerprefstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerprefstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\playwithfriendsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\playwithfriendsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\menuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\startui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\startui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\singleton\\loadingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singleton\\loadingscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui anim\\loadingiconanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui anim\\loadingiconanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\managers\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59972000-A102-93F3-E252-4AFE00D882C8}|Assembly-CSharp.csproj|E:\\New Games\\Pong\\Pong\\assets\\scripts\\ui\\lobbycreateui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,10 +100,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\PaddleSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PaddleSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,7 +109,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,81 +125,164 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainMenuUI.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\MainMenuUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenuUI.cs",
               "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\MainMenuUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\MainMenuUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T08:21:38.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T08:21:38.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DisconnectionHandler.cs",
-              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\DisconnectionHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DisconnectionHandler.cs",
-              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\DisconnectionHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DisconnectionHandler.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MenuUI.cs",
+              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\MenuUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MenuUI.cs",
+              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\MenuUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MenuUI.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T07:04:36.45Z"
+              "WhenOpened": "2025-09-09T12:05:32.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Managers\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\UIManager.cs",
-              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Managers\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\UIManager.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwFgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T05:59:04.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameLobby.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\GameLobby.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameLobby.cs",
               "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\GameLobby.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameLobby.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAqwJ8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T00:48:25.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "LobbyUI.cs",
+              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\LobbyUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LobbyUI.cs",
+              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\LobbyUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\LobbyUI.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T01:29:43.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WaitingUI.cs",
+              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\WaitingUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\WaitingUI.cs",
+              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\WaitingUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\WaitingUI.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:02:19.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RuntimeDB.cs",
+              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Singleton\\RuntimeDB.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Singleton\\RuntimeDB.cs",
+              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Singleton\\RuntimeDB.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Singleton\\RuntimeDB.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T13:39:39.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GameJoiningUI.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\GameJoiningUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GameJoiningUI.cs",
               "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\GameJoiningUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\GameJoiningUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T13:54:17.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "PlayWithFriendsUI.cs",
+              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\PlayWithFriendsUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PlayWithFriendsUI.cs",
+              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\PlayWithFriendsUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\PlayWithFriendsUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:52:35.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
               "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAewDUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T05:37:41.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "StartUI.cs",
+              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\StartUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\StartUI.cs",
+              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\StartUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\StartUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:14:45.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerPrefStrings.cs",
+              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\PlayerPrefStrings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerPrefStrings.cs",
+              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\PlayerPrefStrings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerPrefStrings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T13:45:22.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoadingScene.cs",
+              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Singleton\\LoadingScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Singleton\\LoadingScene.cs",
+              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Singleton\\LoadingScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Singleton\\LoadingScene.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:31:47.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoadingIconAnim.cs",
+              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI Anim\\LoadingIconAnim.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI Anim\\LoadingIconAnim.cs",
+              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI Anim\\LoadingIconAnim.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI Anim\\LoadingIconAnim.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:49:37.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Managers\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ScoreManager.cs",
@@ -195,31 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WaitingUI.cs",
-              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\WaitingUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\WaitingUI.cs",
-              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\WaitingUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\WaitingUI.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T15:02:19.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LobbyUI.cs",
-              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\LobbyUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LobbyUI.cs",
-              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\LobbyUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\LobbyUI.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAIBJwDQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T01:29:43.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "LobbyCreateUI.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\LobbyCreateUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LobbyCreateUI.cs",
@@ -231,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "TMP_SDF-Mobile.shader",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile.shader",
               "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile.shader",
@@ -243,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "GameOverUI.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\GameOverUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GameOverUI.cs",
@@ -255,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Ball.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Ball.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",
@@ -267,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CountDownUI.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\CountDownUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\CountDownUI.cs",
@@ -279,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Managers\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SoundManager.cs",
@@ -292,18 +367,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIManager.cs",
-              "ToolTip": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T04:05:12.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "ScoresUI.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\UI\\ScoresUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ScoresUI.cs",
@@ -315,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "PaddleSpawner.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\PaddleSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PaddleSpawner.cs",
@@ -327,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "TestingNetcodeUI.cs",
               "DocumentMoniker": "E:\\New Games\\Kitchen-Chaos\\Kitchen Chaos\\Assets\\Scripts\\UI\\TestingNetcodeUI.cs",
               "RelativeDocumentMoniker": "..\\..\\Kitchen-Chaos\\Kitchen Chaos\\Assets\\Scripts\\UI\\TestingNetcodeUI.cs",
@@ -339,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "ClientNetworkTransform.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\ClientNetworkTransform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ClientNetworkTransform.cs",
@@ -351,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\New Games\\Pong\\Pong\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",

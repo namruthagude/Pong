@@ -69,41 +69,9 @@ public class GameLobby : MonoBehaviour
         }
     }
 
-    public async void CreateLobby(string lobbyName, bool isPrivate)
-    {
-        try
-        {
-          joinedLobby =  await LobbyService.Instance.CreateLobbyAsync(lobbyName, MAX_NUMBER_OF_PLAYERS, new CreateLobbyOptions()
-            {
-                IsPrivate = isPrivate
-            });
+    
 
-            UIManager.Instance.StartHost();
-        }
-        catch(LobbyServiceException e)
-        {
-            Debug.Log(e);
-        }
-    }
-
-    public async void QuickJoinLobby()
-    {
-        try
-        {
-            joinedLobby = await LobbyService.Instance.QuickJoinLobbyAsync();
-
-            UIManager.Instance.JoinClient();
-        }
-        catch (LobbyServiceException e)
-        {
-            joinedLobby = await LobbyService.Instance.CreateLobbyAsync(GenerateLobbyName(), MAX_NUMBER_OF_PLAYERS, new CreateLobbyOptions()
-            {
-                IsPrivate = false
-            });
-
-            UIManager.Instance.StartHost();
-        }
-    }
+    
 
     private string GenerateLobbyName()
     {
@@ -128,7 +96,8 @@ public class GameLobby : MonoBehaviour
             OnRoomJoined?.Invoke();
 
             Debug.Log("Joined Lobby" + joinedLobby.Id);
-            NetworkManager.Singleton.StartClient();
+            //NetworkManager.Singleton.StartClient();
+            RuntimeDB.Singleton.playerType = RuntimeDB.PlayerType.Client;
         }
         catch (LobbyServiceException e)
         {
@@ -146,7 +115,8 @@ public class GameLobby : MonoBehaviour
                 joinedLobby = await LobbyService.Instance.CreateLobbyAsync(GenerateLobbyName(), MAX_NUMBER_OF_PLAYERS, options);
                 await SubscribeToLobbyEvents();
                 OnRoomCreated?.Invoke();
-                NetworkManager.Singleton.StartHost();
+               // NetworkManager.Singleton.StartHost();
+               RuntimeDB.Singleton.playerType = RuntimeDB.PlayerType.Host;
                 Debug.Log("Joined Lobby" + joinedLobby.Id);
             }
             catch(LobbyServiceException exp)
@@ -173,7 +143,8 @@ public class GameLobby : MonoBehaviour
         joinedLobby = await LobbyService.Instance.CreateLobbyAsync(GenerateLobbyName(), MAX_NUMBER_OF_PLAYERS, options);
         await SubscribeToLobbyEvents();
         OnRoomCreated?.Invoke();
-        NetworkManager.Singleton.StartHost();
+        RuntimeDB.Singleton.playerType = RuntimeDB.PlayerType.Host;
+        //NetworkManager.Singleton.StartHost();
         Debug.Log("Joined Lobby" + joinedLobby.Id);
     }
 
@@ -182,25 +153,17 @@ public class GameLobby : MonoBehaviour
         try
         {
             joinedLobby = await LobbyService.Instance.JoinLobbyByCodeAsync(lobbyCode);
-            UIManager.Instance.JoinClient();
+            await SubscribeToLobbyEvents();
+            OnRoomCreated?.Invoke();
+            //NetworkManager.Singleton.StartClient();
+            RuntimeDB.Singleton.playerType = RuntimeDB.PlayerType.Client;
         }
         catch (LobbyServiceException ex)
         {
             Debug.Log(ex);
         }
     }
-    public async void JoinWithCode(string lobbycode)
-    {
-        try
-        {
-            joinedLobby =  await LobbyService.Instance.JoinLobbyByCodeAsync(lobbycode);
-            UIManager.Instance.JoinClient();
-        }
-        catch(LobbyServiceException ex)
-        {
-            Debug.Log(ex);
-        }
-    }
+   
 
     public Lobby GetLobby()
     {
@@ -232,8 +195,13 @@ public class GameLobby : MonoBehaviour
         {
             if(player.Player.Id != RuntimeDB.Singleton.PlayerName)
             {
-                RuntimeDB.Singleton.OpponentPlayerName = player.Player.Id;
-                OnOpponentJoined?.Invoke();
+
+                if (player.Player.Data != null && player.Player.Data.TryGetValue("displayName", out var pdo))
+                {
+                    RuntimeDB.Singleton.OpponentPlayerName = pdo.Value;
+                    OnOpponentJoined?.Invoke();
+                }
+                
             }
         }
     }

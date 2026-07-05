@@ -27,21 +27,8 @@ public class LobbyUI : MonoBehaviour
 
         });
 
-        createLobbyButton.onClick.AddListener(() =>
-        {
-            UIManager.Instance.ShowLobbyCreateUI();
-        });
 
-        quickJoinLobbyButton.onClick.AddListener(() =>
-        {
-            GameLobby.Instance.QuickJoinLobby();
-        });
-
-        joinByCodeButton.onClick.AddListener(() =>
-        {
-            GameLobby.Instance.JoinWithCode(lobbyCodeInput.text);
-        });
-
+        
 
     }
 

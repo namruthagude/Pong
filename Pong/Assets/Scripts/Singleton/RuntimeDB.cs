@@ -4,12 +4,22 @@ using UnityEngine;
 
 public class RuntimeDB : MonoBehaviour
 {
+
     public static RuntimeDB Singleton;
+
+    #region Enums
+    public enum PlayerType
+    {
+        None,
+        Host,
+        Client
+    }
+    #endregion
     public string PlayerName;
     public bool IsMultiplayer;
     public string OpponentPlayerName;
     public string LobbyCode;
-
+    public PlayerType playerType;
     [SerializeField]
     private GameObject go_NamePanel;
     private void Awake()

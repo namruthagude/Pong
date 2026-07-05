@@ -73,4 +73,9 @@ public class Player : NetworkBehaviour
             }
         }
     }
+
+    private void OnDestroy()
+    {
+        Debug.Log("Player Destroyed");
+    }
 }

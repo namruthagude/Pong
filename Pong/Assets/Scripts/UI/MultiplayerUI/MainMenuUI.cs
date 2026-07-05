@@ -11,6 +11,8 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField]
     private GameObject go_CreateJoinPanel;
     [SerializeField]
+    private GameObject go_JoinRoomPanel;
+    [SerializeField]
     private GameObject go_waitingRoomPanel;
 
     private void Awake()
@@ -43,6 +45,7 @@ public class MainMenuUI : MonoBehaviour
         go_CreateJoinPanel.SetActive(false);
         go_PlayWithFriendpanel.SetActive(false);
         go_waitingRoomPanel.SetActive(false);
+        go_JoinRoomPanel.SetActive(false);
     }
 
     public void ShowPlayWithFriendPanel()
@@ -62,6 +65,12 @@ public class MainMenuUI : MonoBehaviour
     {
         TurnOffAllPanels();
         go_CreateJoinPanel.SetActive(true);
+    }
+
+    public void ShowJoinRoomPanel()
+    {
+        TurnOffAllPanels();
+        go_JoinRoomPanel.SetActive(true);
     }
 
 }

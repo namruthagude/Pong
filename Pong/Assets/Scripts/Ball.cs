@@ -176,4 +176,9 @@ public class Ball : NetworkBehaviour
     {
         OnCollided?.Invoke(this, EventArgs.Empty);
     }
+
+    private void OnDestroy()
+    {
+        Debug.Log("Ball Destroyed");
+    }
 }

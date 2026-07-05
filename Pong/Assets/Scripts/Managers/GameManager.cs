@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Unity.Netcode;
 using System;
+
 public class GameManager : NetworkBehaviour
 {
     private const string PLAYERPREFS_PLAYERNAME = "PlayerName" ;
@@ -18,16 +19,18 @@ public class GameManager : NetworkBehaviour
     public enum State
     {
         None,
-        WaitingToStart,
         CountdownToStart,
         GamePlaying,
         GameOver
     }
 
-    private State state;
+    public NetworkVariable< State> state = new NetworkVariable<State>();
     [SerializeField]
     private GameObject ballPrefab;
-
+    [SerializeField]
+    private GameObject hostPaddlePrefab;
+    [SerializeField]
+    private GameObject clientPaddlePrefab;
     private int playerConnected = 0;
     private string playerName;
 
@@ -35,48 +38,104 @@ public class GameManager : NetworkBehaviour
     private void Awake()
     {
         Instance = this;
-        playerName = PlayerPrefs.GetString(PLAYERPREFS_PLAYERNAME, "PlayerName"+UnityEngine.Random.Range(100,1000).ToString());
+        playerName = RuntimeDB.Singleton.PlayerName;
+        
     }
 
     private void Start()
     {
+        //state.Value = State.None;
         NetworkManager.Singleton.OnClientConnectedCallback += NetworkManager_OnClientConnectedCallback;
-        state = State.None;
+        //state = State.None;
+        if (RuntimeDB.Singleton.playerType == RuntimeDB.PlayerType.Host)
+        {
+            NetworkManager.Singleton.StartHost();
+
+        }
+        else if (RuntimeDB.Singleton.playerType == RuntimeDB.PlayerType.Client)
+        {
+            NetworkManager.Singleton.StartClient();
+        }
+        // NetworkManager_OnClientConnectedCallback();
     }
 
-    private void NetworkManager_OnClientConnectedCallback(ulong obj)
+    private void NetworkManager_OnClientConnectedCallback(ulong clientId)
     {
-        playerConnected++;
+        UnityEngine.Debug.Log(" Client Connected callback");
+        // Important: only the server (or host) should perform Spawn() calls
+        //UpdateState(State.CountdownToStart);
+        if (!NetworkManager.Singleton.IsServer) return;
+        UpdateState(State.CountdownToStart);
+        
+        
+    }
 
-        if (playerConnected == 2 && IsServer)
+    public void SpawnGameObjects()
+    {
+        SpawnPlayers();
+        OnPlayersJoined?.Invoke(this, EventArgs.Empty);
+        SpawnBall();
+    }
+    private void SpawnPlayers()
+    {
+        // Choose prefab: if the clientId equals the server's local client id (host),
+        // we spawn the host paddle for that client; otherwise spawn client paddle.
+        UnityEngine.Debug.Log("Spawning Palyers");
+        Debug.Log("NetworkManager.Singleton.ConnectedClientsList length" + NetworkManager.Singleton.ConnectedClientsList.Count);
+        foreach (var client in NetworkManager.Singleton.ConnectedClientsList)
         {
-            SpawnBall();
-            OnPlayersJoined?.Invoke(this, EventArgs.Empty);
+            if(client.ClientId == NetworkManager.Singleton.LocalClientId)
+            {
+                //Host
+                var player = Instantiate(hostPaddlePrefab, Vector3.zero, Quaternion.identity);
+                var no = player.GetComponent<NetworkObject>();
+                no.SpawnAsPlayerObject(client.ClientId);
+        
+            }
+            else
+            {
+                //Client 
+                var player = Instantiate(clientPaddlePrefab, Vector3.zero, Quaternion.identity);
+                var no = player.GetComponent<NetworkObject>();
+                no.SpawnAsPlayerObject(client.ClientId);
+            }
         }
     }
 
     private void SpawnBall()
     {
-        GameObject ball = Instantiate(ballPrefab, Vector3.zero, Quaternion.identity);
 
-        ball.GetComponent<NetworkObject>().Spawn();
-        UpdateState(State.CountdownToStart);
+        Debug.Log("Spawing Ball");
+        // Ball should only be spawned by server too
+        if (!NetworkManager.Singleton.IsServer) return;
+
+        var ball = Instantiate(ballPrefab, Vector3.zero, Quaternion.identity);
+        var no = ball.GetComponent<NetworkObject>();
+        if (no == null)
+        {
+            Debug.LogError("Ball prefab missing NetworkObject component!");
+            Destroy(ball);
+            return;
+        }
+
+        // Server spawns a shared ball (no ownership needed)
+        no.Spawn();
+
+       // UpdateState(State.CountdownToStart);
     }
+
 
 
     public void UpdateState(State state)
     {
-        this.state = state;
+        this.state.Value = state;
         ManageState();
     }
 
     private void ManageState()
     {
-        switch (state)
+        switch (state.Value)
         {
-            case State.WaitingToStart:
-                OnWaitingToStart?.Invoke(this, EventArgs.Empty);
-                break;
             case State.CountdownToStart:
                 OnCountingDownToStart?.Invoke(this, EventArgs.Empty);
                 break;
@@ -91,12 +150,12 @@ public class GameManager : NetworkBehaviour
 
     public bool IsGamePlaying()
     {
-        return state == State.GamePlaying;
+        return state.Value == State.GamePlaying;
     }
 
     public bool IsGameOver()
     {
-        return state == State.GameOver;
+        return state.Value == State.GameOver;
     }
 
     public string GetPlayerName()
@@ -112,9 +171,6 @@ public class GameManager : NetworkBehaviour
     public override void OnDestroy()
     {
         base.OnDestroy();
-        if (NetworkManager.Singleton != null)
-        {
-            NetworkManager.Singleton.OnClientConnectedCallback -= NetworkManager_OnClientConnectedCallback;
-        }
+       
     }
 }

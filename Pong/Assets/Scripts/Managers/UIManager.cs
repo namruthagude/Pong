@@ -7,21 +7,16 @@ public class UIManager : NetworkBehaviour
 {
     public static UIManager Instance { get; private set; }
 
-    [SerializeField]
-    private GameJoiningUI gameJoiningUI;
+    
     [SerializeField]
     private ScoresUI scoresUI;
-    [SerializeField]
-    private WaitingUI waitingUI;
+    
     [SerializeField]
     private CountDownUI countDownUI;
     [SerializeField]
     private GameOverUI gameOverUI;
 
-    [SerializeField]
-    private LobbyUI lobbyUI;
-    [SerializeField]
-    private LobbyCreateUI lobbyCreateUI;
+    
 
 
     private void Awake()
@@ -53,10 +48,7 @@ public class UIManager : NetworkBehaviour
         ShowCountDownUIClientRpc();
     }
 
-    public GameJoiningUI GetGameJoiningUI()
-    {
-        return gameJoiningUI;
-    }
+   
 
     public void ShowScoreUI()
     {
@@ -66,6 +58,7 @@ public class UIManager : NetworkBehaviour
     [ClientRpc]
     private void ShowScoreUIClientRpc()
     {
+        Debug.Log("Showing Countdown");
         scoresUI.Show();
     }
 
@@ -109,18 +102,8 @@ public class UIManager : NetworkBehaviour
 
     }
 
-    public void StartHost()
-    {
-        gameJoiningUI.StartHost();
-    }
+ 
 
-    public void JoinClient()
-    {
-        gameJoiningUI.StartClient();
-    }
 
-    public void ShowLobbyCreateUI()
-    {
-        lobbyCreateUI.Show();
-    }
+   
 }

@@ -30,6 +30,7 @@ public class CountDownUI : MonoBehaviour
         else if(count == 0)
         {
             Hide();
+            GameManager.Instance.SpawnGameObjects();
             GameManager.Instance.UpdateState(GameManager.State.GamePlaying);
         }
     }

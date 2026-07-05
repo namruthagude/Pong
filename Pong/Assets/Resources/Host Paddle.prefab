@@ -13,8 +13,10 @@ GameObject:
   - component: {fileID: 8147478577465742629}
   - component: {fileID: 450319929553936969}
   - component: {fileID: 1930942327550023896}
+  - component: {fileID: -2908327678127603272}
+  - component: {fileID: 1784143613766584226}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Host Paddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,6 +147,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8306707, y: 3.822155}
   m_EdgeRadius: 0
+--- !u!114 &-2908327678127603272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644667891565519159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe6230024515fc469d8031868ee5cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1784143613766584226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644667891565519159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43d8033cabdd8d945a577c3c7a77d59a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7689577815612401520
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,7 +232,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2db65978b0f9051458a564df10c7ffed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

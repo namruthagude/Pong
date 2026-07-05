@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using Unity.Services.Lobbies.Models;
+using Unity.Services.Authentication;
+using Unity.Services.Matchmaker.Models;
 
 public class WaitingUI : MonoBehaviour
 {
@@ -33,7 +35,15 @@ public class WaitingUI : MonoBehaviour
     private void Lobby_OnOpponentJoined()
     {
         opponentNameText.text = RuntimeDB.Singleton.OpponentPlayerName;
-        go_StartButton.SetActive(true);
+        go_OppNameText.SetActive(true);
+        go_WaitingText.SetActive(false);
+        if(RuntimeDB.Singleton.playerType == RuntimeDB.PlayerType.Host)
+        {
+            //go_StartButton.SetActive(true);
+
+        }
+        LoadingScene.Singleton.LoadScene(LoadingScene.SCENE_GAME);
+       
     }
 
     private void OnEnable()
@@ -43,26 +53,29 @@ public class WaitingUI : MonoBehaviour
             Lobby joinedLobby = GameLobby.Instance.GetLobby();
             lobbyCodeText.text = "Lobby Code :" + joinedLobby.LobbyCode;
             playerNameText.text = RuntimeDB.Singleton.PlayerName;
-            if(RuntimeDB.Singleton.OpponentPlayerName == " " || RuntimeDB.Singleton.OpponentPlayerName == null)
-            {
-                go_WaitingText.SetActive(true);
-                go_OppNameText.SetActive(false);
-            }
-            else
-            {
-                go_WaitingText.SetActive(false);
-                go_OppNameText.SetActive(true);
-                opponentNameText.text = RuntimeDB.Singleton.OpponentPlayerName;
-            }
             
             if(joinedLobby.Players.Count < 2)
             {
+
+                go_WaitingText.SetActive(true);
+                go_OppNameText.SetActive(false);
                 go_StartButton.SetActive(false);
             }
             else
             {
-
-                go_StartButton.SetActive(true);
+                for (int i = 0; i < joinedLobby.Players.Count; i++)
+                {
+                    if (joinedLobby.Players[i].Id != AuthenticationService.Instance.PlayerId)
+                    {
+                        if (joinedLobby.Players[i].Data != null && joinedLobby.Players[i].Data.TryGetValue("displayName", out var pdo))
+                        {
+                            RuntimeDB.Singleton.OpponentPlayerName = pdo.Value;
+                            Lobby_OnOpponentJoined();
+                        }
+                       
+                    }
+                }
+                
             }
         }
     }
@@ -75,7 +88,7 @@ public class WaitingUI : MonoBehaviour
     private void GameJoiningUI_OnWaitingForPlayer(object sender, System.EventArgs e)
     {
         Show();
-        GameManager.Instance.UpdateState(GameManager.State.WaitingToStart);
+        //GameManager.Instance.UpdateState(GameManager.State.WaitingToStart);
     }
 
     private void Hide()

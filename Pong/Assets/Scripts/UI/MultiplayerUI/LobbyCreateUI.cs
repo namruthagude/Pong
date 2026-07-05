@@ -17,22 +17,8 @@ public class LobbyCreateUI : MonoBehaviour
 
     private void Awake()
     {
-        closeButton.onClick.AddListener(() =>
-        {
-            Hide();
-        });
-
-        publicLobbyButton.onClick.AddListener(() =>
-        {
-            GameLobby.Instance.CreateLobby(lobbyNameText.text, false);
-            Hide();
-        });
-
-        privateLobbyButton.onClick.AddListener(() =>
-        {
-            GameLobby.Instance.CreateLobby(lobbyNameText.text, true);
-            Hide();
-        });
+       
+       
     }
 
     private void Start()
